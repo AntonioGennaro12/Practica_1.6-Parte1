@@ -11,20 +11,15 @@ stringIngresado = prompt("Escribe una Cadena de Caracteres"); // pido el String
 enteroIngresado = prompt("Escribe un Número Entero"); // pido el Integer
 puntoflotanteIngresado = prompt("Escribe un Número con Decimales"); // pido el float
 booleanoIngresado = prompt(`Escribe un Boolean "True" o "False"`); // pido un boolean
+// Fin de ingreso de datos
+document.write("<h1>Muestro los datos ingresados<h1>"); // Muestro los datos
 // Ahora los muestro a todos en H2
-document.write("<h1><h1>"); // defino tipo de letra e inserto linea
-document.write("Muestro los datos ingresados");
-document.write("<h2><h2>"); // defino tipo de letra
-document.write("El Caracter ingresado es:   " + caracterIngresado );
-document.write("<h2><h2>"); // defino tipo de letra
-document.write("El String ingresado es:  " + stringIngresado );
-document.write("<h2><h2>"); // defino tipo de letra
-document.write("El Entero ingresado es:  " + enteroIngresado );
-document.write("<h2><h2>"); // defino tipo de letra
-document.write("El Núm. con Decimales ingresado es:  " + puntoflotanteIngresado );
-document.write("<h2><h2>"); // defino tipo de letra
-document.write("El Booleano ingresado es:  " + booleanoIngresado );
-document.write("<h3><h3>"); // defino tipo de letra e inserto linea
-document.write("Fin");
+document.write("<h2> El Caracter ingresado es:   "+ caracterIngresado + " </h2>");
+document.write("<h2> El String ingresado es:  "+ stringIngresado + " </h2>");
+document.write("<h2> El Entero ingresado es:  "+ enteroIngresado + " </h2>");
+document.write("<h2> El Núm. con Decimales ingresado es:  "+ puntoflotanteIngresado + " </h2>");
+document.write("<h2> El Booleano ingresado es:  "+ booleanoIngresado + " </h2>");
+document.write("<h3>Fin<h3>"); //  Fin
+
 
 
